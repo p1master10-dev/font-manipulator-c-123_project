@@ -1,0 +1,40 @@
+.heading{
+    top: 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 0px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    box-shadow: 5px 5px 18px lightblue;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: cornflowerblue;
+    line-height: 2;
+    color: white;
+    box-shadow: 5px 5px 18px 18px lightblue;
+}
+
+body{
+    font-weight: 600;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#note{
+    color: black;
+}
+
+#txt{
+    font-size: 25px;
+}
+
+canvas{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 18px 18px white;
+    border: 2px solid black;
+}
