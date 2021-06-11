@@ -44,6 +44,8 @@ function gotPoses(results , error){
 
         console.log('all = ' + leftWristX + ',' + rightWristX + ',' + difference);
         console.log(textP5);
+        
+        document.getElementById('font-size').innerHTML = difference;
     }else{
         console.log(error);
     }
